@@ -51,4 +51,4 @@ LOCAL_LDLIBS := -llog
 
 LOCAL_MODULE := libusb1.0
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
